@@ -9,7 +9,7 @@ const Mision = () => {
         <h1 className='text-center font-bold uppercase text-2xl p-4 '>About Us</h1>
         </div>
 
-        <div className='max-w-[80%] m-auto grid grid-cols-2 gap-10' >
+        <div className='max-w-[80%] m-auto grid md:grid-cols-2 sm:grid-cols-1 gap-10' >
           <div className='p-4'>
 
           <Collapse.Group>
