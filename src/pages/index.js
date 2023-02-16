@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <Hero  heading='Caribe Hospitality' mesagge='Develop and manage hotel investments of superior standards in a sustainable, profitable manner and with a high-level team.' />
+      <Hero  heading='Caribe Hospitality' mesagge='We bring development and sustainable economic growth to different countries in the region' />
       <Slider slides={SliderData}/>
       <Mision/>
       
