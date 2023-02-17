@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Hero2 from 'components/Hero2'
-import Navbar from 'components/Navbar'
 import React from 'react'
 import { SliderData } from 'components/SliderData'
-
 import Slider from 'components/Slider'
+import Corporate from 'components/Corporate'
 
 const index = () => {
   return (
@@ -17,9 +16,7 @@ const index = () => {
         
       </Head>
       <Hero2  heading='About Us' mesagge='We develop and manage hotel investments of superior standards in a sustainable, profitable manner and with a high-level team.' />
-
-      <Slider slides={SliderData}/>
-      <Slider slides={SliderData}/>
+      <Corporate/>
     </>
   )
 }

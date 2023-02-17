@@ -9,8 +9,8 @@ const Mision = () => {
         <h1 className='text-center font-bold uppercase text-2xl p-4 '>About Us</h1>
         </div>
 
-        <div className='max-w-[80%] m-auto grid md:grid-cols-2 sm:grid-cols-1 gap-10' >
-          <div className='p-4'>
+        <div className='max-w-[80%] sm.max-w-[100%]  m-auto grid md:grid-cols-2 sm:grid-cols-1 gap-10' >
+          <div className='pt-4 shadow-md'>
 
           <Collapse.Group>
       <Collapse title="Mission" bordered expanded>
@@ -38,7 +38,7 @@ const Mision = () => {
       </Collapse>
     </Collapse.Group>
           </div>
-          <div>
+          <div className='shadow-md'>
             <h3 className='text-center font-bold p-4'>Sustainability Policy</h3>
             <p className='text-justify'>
             Caribe Hospitality is committed to developing hotel assets that operate profitably in accordance with applicable legal, financial, environmental, energy and other requirements. We are committed to the continuous improvement of our business processes, to environmental and energy performance, and to our Sustainability and Energy Management Systems. Caribe Hospitality is specifically committed to:

@@ -25,8 +25,8 @@ const Slider = ({slides}) => {
   return (
 
     <div id='slider-hoteles' className='max-w-[1440px] mx-auto'>
-        <h1 className='text-center font-bold uppercase text-2xl p-4 '>Proyectos</h1>
-        <p className='text-center'>Caribe Hospitality cuenta con 14 Hoteles en 6 paises</p>
+        <h1 className='text-center font-bold uppercase text-2xl p-4 '>Projects</h1>
+        <p className='text-center'>We have developed 14 hotels in 6 countries</p>
         <div className='relative flex justify-center p-4'>
 
         
