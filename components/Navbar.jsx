@@ -30,18 +30,18 @@ const Navbar = () => {
                 <h1 style={{color: `${textColor}`}} className='font-bold text-4xl '>Caribe Hospitality</h1>
             </Link>
             <ul style={{color: `${textColor}`}} className='hidden sm:flex '>
-                <li  className='p-4 hover:text-gray-500 duration-300'>
+                <li  className='p-4 hover:text-lime-500  duration-300'>
                     <Link href='/'>Home</Link>
                 </li>
 
-                <li  className='p-4 hover:text-gray-500 duration-300'>
+                <li  className='p-4 hover:text-lime-500 duration-300'>
                     <Link href='/company'>Company</Link>
                 </li>
 
-                <li  className='p-4 hover:text-gray-500 duration-300'>
+                <li  className='p-4 hover:text-lime-500 duration-300'>
                     <Link href='/portfolio'>Portfolio</Link>
                 </li>
-                <li  className='p-4 hover:text-gray-500 duration-300'>
+                <li  className='p-4 hover:text-lime-500 duration-300'>
                     <Link href='/leadership'>Leadership</Link>
                 </li>
             </ul>
@@ -56,16 +56,16 @@ const Navbar = () => {
                 : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' 
             }>
             <ul>
-                <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                <li onClick={handleNav} className='p-4 text-4xl hover:text-lime-500'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                <li onClick={handleNav} className='p-4 text-4xl hover:text-lime-500'>
                     <Link href='/company'>Company</Link>
                 </li>
-                <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                <li onClick={handleNav} className='p-4 text-4xl hover:text-lime-500'>
                     <Link href='/portfolio'>Portfolio</Link>
                 </li>
-                <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                <li onClick={handleNav} className='p-4 text-4xl hover:text-lime-500'>
                     <Link href='/leadership'>Leadership</Link>
                 </li>
             </ul>
